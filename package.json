@@ -1,0 +1,41 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is react project",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manasa26496/react_projects.git"
+  },
+  "keywords": [
+    "reactt"
+  ],
+  "author": "manasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manasa26496/react_projects/issues"
+  },
+  "homepage": "https://github.com/manasa26496/react_projects#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "@testing-library/react": "^14.0.0",
+    "jest-environment-jsdom": "^29.6.3",
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.27",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.14.2"
+  }
+}
