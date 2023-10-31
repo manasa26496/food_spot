@@ -7,6 +7,9 @@
     "build": "parcel build index.html",
     "test": "jest"
   },
+  "@parcel/resolver-default": {
+    "packageExports": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manasa26496/react_projects.git"
